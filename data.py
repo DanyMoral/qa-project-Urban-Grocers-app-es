@@ -1,6 +1,5 @@
 headers = {
-    "Authorization": "Bearer {authToken}",
-    "Content-Type": "application/json"
+    "Content-Type": "application/json",
     }
 
 user_body = {
@@ -10,8 +9,5 @@ user_body = {
 }
 
 created_kit = {
-       "name": "Mi colección",
-       "card": {
-           "id": 4,
-           "name": "Para descansar"
-       }}
+       "name": "Mi colección"
+       }
